@@ -22,12 +22,14 @@ Due to resource constraints model were trained only for 10 epochs.
 
 ## EfficientNet
 Accuracy on the validation was 0.98
+![EfficientNet model accuracy plot](https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/EfficientNet-accuracy.png?raw=true)
 
 ## MobileNetV2
 Accuracy on the validation was 0.93
+![MobileNetV2 model accuracy plot] (https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/MobileNetV2-accuracy.png?raw=true)
 
 ## Custom model
-Accuracy on the validation was 0.58
-
+Initially, accuracy on the validation was 0.58
 After that, model was trained for more 10 epochs to see if we could get better results.
-Accuracy on the validation was 0.86
+Then, accuracy on the validation increased to 0.86
+![Custom model accuracy plot](https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/CustomModel-accuracy.png?raw=true)
