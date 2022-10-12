@@ -26,7 +26,7 @@ Accuracy on the validation was 0.98
 
 ## MobileNetV2
 Accuracy on the validation was 0.93
-![MobileNetV2 model accuracy plot] (https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/MobileNetV2-accuracy.png?raw=true)
+![MobileNetV2 model accuracy plot](https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/MobileNetV2-accuracy.png?raw=true)
 
 ## Custom model
 Initially, accuracy on the validation was 0.58
