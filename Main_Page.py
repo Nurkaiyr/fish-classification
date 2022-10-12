@@ -19,7 +19,7 @@ def main():
     file = st.file_uploader("Upload an image here") # type=['jpg', 'png', 'jpeg']
     if not file:
         file = image_select("🖱️ Select pre-loaded image here", ["Images_to_test/Anthias_anthias.jpg", "Images_to_test/Belone_Belone.jpg",
-                                                             "Images_to_test/Coris_Julis-3.jpg", "Images_to_test/scomber_japonicus-1722.jpg"],
+                                                             "Images_to_test/coris_julis-3.jpg", "Images_to_test/scomber_japonicus-1722.jpg"],
                         captions=['Anthias_anthias', 'Belone_Belone', 'Coris_Julis', 'Scomber_Japonicus'])
     else:
         image_data = file.getvalue()
