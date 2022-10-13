@@ -28,7 +28,7 @@ with st.expander("MobileNet model plots"):
     st.subheader('Accuracy')
     st.image('https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/MobileNetV2-accuracy.png?raw=true')
     st.subheader('Loss')
-    st.image('https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/Custom-model-loss.png?raw=true')
+    st.image('https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/MobileNetV2-loss.png?raw=true')
 
 st.header("Custom model")
 st.markdown("For the custom model, there were applied several **Convolutional** layers with **ReLU** activation function, \
@@ -40,4 +40,5 @@ with st.expander("Custom model plots"):
     st.subheader('Accuracy')
     st.image('https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/CustomModel-accuracy.png?raw=true')
     st.subheader('Loss')
-    st.image('https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/MobileNetV2-loss.png?raw=true')
+    st.image('https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/Custom-model-loss.png?raw=true')
+    st.markdown("> Note: This loss plot after addition 10 epochs trainings. Training of this model was saved and continued for another 10 epochs.")
