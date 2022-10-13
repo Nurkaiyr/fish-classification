@@ -8,6 +8,8 @@ from PIL import Image
 
 from streamlit_image_select import image_select
 
+st.set_page_config(page_title="Fish classification App", page_icon = "fish")
+
 def main():
     st.title("🐟 Fish classification Demo App")
     st.subheader("📁 Upload an image of a fish to classify its species")
