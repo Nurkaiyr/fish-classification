@@ -35,7 +35,7 @@ st.markdown("For the custom model, there were applied several **Convolutional** 
                 followed by **Batch Normalization** layers and **MaxPooling** and **Dropout** layers. \
                 In addition, several **Dense**(Fully-connected) layers were added with final output of 20 classes.")
 with st.expander("Custom model architecture"):
-    st.image('https://i.ibb.co/vv87dLh/custom-model-20-h5.png')
+    st.image('https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/Custom-model-architecture.png?raw=true')
 with st.expander("Custom model plots"):
     st.subheader('Accuracy')
     st.image('https://github.com/Nurkaiyr/fish-classification/blob/master/Plots/CustomModel-accuracy.png?raw=true')
