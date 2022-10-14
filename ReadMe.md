@@ -1,6 +1,6 @@
 # 🐟 Fish Classification
 
-> Demo: https://bit.ly/fish-classification
+> Demo: https://fish-classification.streamlitapp.com/
 
 The dataset consists of _20 Mediterranean fish species_ with _2000_ images for per fish species.
 Overall, _40 000_ images were produced. 
